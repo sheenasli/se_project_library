@@ -48,6 +48,10 @@ li {
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   max-width: 544px;
   margin-top: 150px;
@@ -89,6 +93,10 @@ li {
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #1f69c9;
+}
+
 .header__address {
   margin: 0;
   color: #838383;
@@ -100,6 +108,11 @@ li {
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events:hover {
+  color: #1f69c9;
 }
 
 .events__content {
@@ -234,4 +247,245 @@ li {
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.staff {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.staff__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 0 24px;
+  color: #ffffff;
+}
+
+.staff__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 24px 0 0;
+  color: #ffffff;
+}
+
+.staff__cards {
+  max-width: 760px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  list-style-position: none;
+  padding-left: 0;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+  height: 420px;
+  width: 360px;
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__footer {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
+  /* In our case, this pushes the element down to the bottom */
+  margin-top: auto;
+}
+
+.membership {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  background-color: #f2f2f2;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 70px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.about {
+  padding: 100px 80px;
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 1;
+  max-width: 154px;
+  padding-top: 50px;
+  white-space: nowrap;
+}
+
+.about__content {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  padding-top: 50px;
+  position: relative;
+  left: 120px;
+  z-index: 1;
+}
+
+.about__paragraph {
+  margin: 0;
+}
+
+.about__paragraph_second-child {
+  margin: 32px 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+  z-index: 0;
+  position: absolute;
+  top: -121px;
+  left: -91px;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 102px 60px 80px;
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 224px;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+  position: relative;
+  right: 100px;
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
+.footer__list {
+  /* The code below removes the default browser styles for lists */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.footer__list-item {
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-top: 108px;
 }
