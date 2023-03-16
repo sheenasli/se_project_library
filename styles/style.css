@@ -271,7 +271,7 @@ li {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0 0;
+  margin: 24px 0 68px;
   color: #ffffff;
 }
 
@@ -282,7 +282,6 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
-  list-style-position: none;
   padding-left: 0;
 }
 
