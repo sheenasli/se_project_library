@@ -35,11 +35,8 @@
   column-gap: 20px;
   margin-top: 8px;
   padding: 0;
-}
-
-ul,
-li {
   list-style-type: none;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -66,6 +63,7 @@ li {
   margin-top: 32px;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -170,6 +168,7 @@ li {
 .events__more {
   margin-top: 60px;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .events__more:hover {
@@ -197,31 +196,26 @@ li {
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -254,7 +248,7 @@ li {
   background-image: url(../images/staff_picks_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .staff__title {
@@ -282,6 +276,7 @@ li {
   justify-content: space-between;
   gap: 40px;
   padding-left: 0;
+  list-style-type: none;
 }
 
 .card {
@@ -340,12 +335,11 @@ li {
 
 .membership__steps {
   list-style-type: none;
-  padding: 0;
-  margin: 50px 50px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 70px;
+  column-gap: 40px;
 }
 
 .step {
@@ -386,8 +380,6 @@ li {
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  padding-top: 50px;
-  white-space: nowrap;
 }
 
 .about__content {
@@ -395,7 +387,6 @@ li {
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  padding-top: 50px;
   position: relative;
   left: 120px;
   z-index: 1;
@@ -405,7 +396,7 @@ li {
   margin: 0;
 }
 
-.about__paragraph_second-child {
+.about__paragraph:nth-child(2) {
   margin: 32px 0;
 }
 
@@ -425,8 +416,6 @@ li {
   background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 102px 60px 80px;
-  font-size: 16px;
-  line-height: 20px;
   min-height: 224px;
 }
 
@@ -464,6 +453,8 @@ li {
 .footer__column-heading {
   margin-top: 0;
   margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -486,4 +477,5 @@ li {
 
 .footer__copyright {
   margin-top: 108px;
+  margin-bottom: 0;
 }
