@@ -193,6 +193,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -337,9 +338,9 @@
   list-style-type: none;
   margin: 100px 0 0;
   display: flex;
-  justify-content: space-between;
   position: relative;
   column-gap: 40px;
+  justify-content: center;
 }
 
 .step {
